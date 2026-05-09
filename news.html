@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./logo.png?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Berita | Haniya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Georgia', serif; overflow-x: hidden; }
+        .font-sans-custom { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-black min-h-full flex flex-col"> 
+
+<!-- Navigasi (Konsisten) -->
+<nav class="sticky top-0 z-50 bg-white flex justify-between items-center px-8 py-6 uppercase tracking-widest text-sm font-bold border-b border-gray-100 shrink-0 font-sans-custom">
+    <div class="space-x-8">
+        <a href="index.html" class="hover:opacity-50">Home</a>
+        <a href="gallery.html" class="hover:opacity-50">Gallery</a>
+    </div>
+</nav>
+
+<main class="flex-grow">
+
+    <header class="px-8 pt-20 pb-12 max-w-6xl mx-auto w-full">
+        <p class="text-xs uppercase tracking-[0.3em] mb-4 font-bold text-gray-400 font-sans-custom">Archives</p>
+        <h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tighter uppercase italic">Pondok News</h1>
+        <p class="mt-4 text-gray-600 max-w-xl">Kumpulan berita mingguan. Menyajikan kabar mingguan Pondok Modern Darussalam Gontor, juga diterbitkan di Mading Darussalam Pos dan <a href="https://gontor.ac.id/" target="_blank">Website Gontor</a>.</p>
+    </header>
+
+    <!-- News Feed (Gaya Feed Media Sosial/Jurnal) -->
+    <section class="max-w-4xl mx-auto px-8 py-12">
+        
+        <!-- Artikel 1 -->
+        <article class="mb-20 group">
+            <p class="font-sans-custom text-xs text-gray-400 uppercase tracking-widest mb-4">7 Mei 2026 — Kegiatan</p>
+            <a href="#" class="block">
+                <div class="overflow-hidden bg-gray-100 mb-6 aspect-[16/9]">
+                    <img src="DSC09172.jpg" alt="News Image" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold leading-tight hover:underline decoration-1 underline-offset-4">Drama Arena 5101 "Menyala"</h2>
+                <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                    GONTOR – Pagelaran Seni Akbar Drama Arena Sukses diselenggarakan pada Kamis malam (07/05) di depan Gedung BPPM. Dengan moto “Menyalakan Api Kebersamaan, Wujudkan Idealisme Kehidupan”, Santri Kelas 5 KMI berhasil ...
+                </p>
+            </a>
+            <div class="mt-6">
+                <a href="#" class="font-sans-custom text-xs uppercase font-bold tracking-widest border-b-2 border-black pb-1 hover:opacity-50 transition">Read Full Story</a>
+            </div>
+        </article>
+
+    </section>
+</main>
+
+<!-- Footer (Konsisten & Full Width) -->
+<footer id="contact" class="bg-black text-white text-center py-32 w-screen relative left-[50%] right-[50%] -ml-[50vw] -mr-[50vw] mt-auto font-sans-custom">
+    <div class="max-w-7xl mx-auto px-8">
+        <p class="text-sm uppercase tracking-widest mb-8">Let's talk</p>
+        
+        <div class="flex justify-center items-center space-x-8 mb-12">
+            <a href="mailto:haniyarbbny@gmail.com" class="hover:opacity-50 transition text-3xl">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/hnyrbbny/" target="_blank" rel="noopener noreferrer" class="hover:opacity-50 transition text-3xl">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="pt-6 opacity-50">
+            <p class="text-[15px]">
+                © 2026 Haniya Rabbany, All Right Reserved
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
